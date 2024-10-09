@@ -26,7 +26,7 @@ const { id }  = useParams()
   return (
     
     <>
-    <div className="bg-gray-800 py-8 w-screen">
+    <div className="bg-gray-800 py-8 w-full">
   <div className="max-w-full mx-auto px-4 sm:px-6 lg:px-8">
     <div className="flex flex-col md:flex-row -mx-4">
       <div className="md:flex-1 px-4">

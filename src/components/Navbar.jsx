@@ -67,7 +67,7 @@ const Navbar = () => {
  
  */}
 <header
-  className="bg-gray-500 sm:flex justify-between sm:px-4 sm:py-1 py-2 sm:items-center"
+  className="bg-gray-500 w-full sm:flex justify-between sm:px-4 sm:py-1 py-2 sm:items-center"
   data-controller="navbar" data-navbar-state-value="false">
   <div className="flex justify-between px-4 py-1 sm:p-0 items-center">
     <div className="font-bold text-xl  font-mono text-gray-200">
