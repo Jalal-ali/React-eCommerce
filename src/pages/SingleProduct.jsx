@@ -36,7 +36,7 @@ const { id }  = useParams()
             src={data.image}
             alt="Product Image"
           />
-    <span className="absolute top-32  m-2 rounded-full bg-black px-2 text-center text-sm font-medium text-white">30% OFF</span>
+    <span className="absolute top-44  m-2 rounded-full bg-black px-2 py-1 text-center text-sm font-medium text-white">30% OFF</span>
           
         </div>
         <div className="flex -mx-2 mb-4">
