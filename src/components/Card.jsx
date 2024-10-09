@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom"
+// import { Link } from "react-router-dom"
 
 const Cards = ({image , item , price , rating , func})=>{
     return(
@@ -9,8 +9,8 @@ const Cards = ({image , item , price , rating , func})=>{
     <span className="absolute top-0 left-0 m-2 rounded-full bg-black px-2 text-center text-sm font-medium text-white">30% OFF</span>
   </a>
   <div className="mt-4 border-t rounded-lg border-slate-300 m-2 p-2 px-5 pb-5">
-    <a href="#">
       <h5 className="text-xl tracking-tight font-semibold text-slate-900">{item}</h5>
+    <a href="#">
     </a>
     <div className="mt-2 mb-5 flex items-center justify-between">
       <p>
