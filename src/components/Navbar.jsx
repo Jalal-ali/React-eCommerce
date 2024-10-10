@@ -67,7 +67,7 @@ const Navbar = () => {
  
  */}
 <header
-  className="bg-gray-500 w-full sm:flex justify-between sm:px-4 sm:py-1 py-2 sm:items-center"
+  className="bg-gray-50  w-full sm:flex justify-between sm:px-4 sm:py-1 py-2 sm:items-center"
   data-controller="navbar" data-navbar-state-value="false">
   <div className="flex justify-between px-4 py-1 sm:p-0 items-center">
     <div className="font-bold text-xl  font-mono text-gray-200">
@@ -88,14 +88,14 @@ const Navbar = () => {
     </div>
   </div>
 
-  <div className="hidde sm:flex px-2 pt-2 pb-4 sm:pb-2" data-navbar-target="menu">
-  <Link className="block text-gray-200 font-semibold hover:bg-gray-800 rounded px-2 py-1" to="app">Home</Link>
-  <Link className="block text-gray-200 font-semibold hover:bg-gray-800 rounded px-2 py-1 mt-1 sm:mt-0 sm:ml-2" to="contact">Contact Us</Link>
+  <div className="hidden sm:flex px-2 pt-2 pb-4 sm:pb-2" data-navbar-target="menu">
+  <Link className="block text-gray-800 font-semibold hover:bg-gray-800 rounded px-2 py-1" to="app">Home</Link>
+  <Link className="block text-gray-800 font-semibold hover:bg-gray-800 rounded px-2 py-1 mt-1 sm:mt-0 sm:ml-2" to="contact">Contact Us</Link>
  
   </div>
-  <div className="hidden">
+  <div className="hidde">
   <a className="flex mr-6 items-center" href="#">
-        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 hover:text-gray-400 text-gray-200" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 hover:text-gray-400 text-gray-800" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
         </svg>
         <span className="flex absolute -mt-5 ml-4">
