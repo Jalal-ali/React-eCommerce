@@ -18,7 +18,7 @@ const show = () => {
     </div>
     
     <div className="sm:hidden">
-      <button onClick={show} className="text-orange-400 focus:text-white focus:outline-none hover:text-white block"
+      <button onClick={show} className="text-orange-400 focus:text-gray-600 focus:outline-none hover:text-orange-600 block"
         type="button"
         data-action="click->navbar#toggle" >
         <span className="sr-only">Open main menu</span>
