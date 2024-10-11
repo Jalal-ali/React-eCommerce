@@ -10,10 +10,10 @@ const show = () => {
   return (
     <>
 <header
-  className="bg-gray-50 border-b   w-full sm:flex justify-between sm:px-4 sm:py-1 py-2 sm:items-center"
+  className="bg-gray-50 border-b justify-between w-full sm:flex justify- sm:px-4 sm:py-1 py-2 sm:items-center"
   data-controller="navbar" data-navbar-state-value="false">
-  <div className="flex justify-between px-4 py-1 sm:p-0 items-center">
-    <div className="font-thin text-xl font-serif text-gray-500">
+  <div className="flex px-4 py-1 justify-between sm:p-0 items-center">
+    <div className="font-thin text-xl font-serif text-gray-500 justify-start">
       <span className="font-bold text-orange-400">React</span>store
     </div>
     
@@ -31,11 +31,12 @@ const show = () => {
     </div>
   </div>
 
-  <div className={hambrgr ? "hidden sm:flex px-2 pt-2 pb-4 sm:pb-2" : "sm:flex px-2 pt-2 pb-4 sm:pb-2" }  data-navbar-target="menu">
+  <div className={hambrgr ? "hidden me-28 sm:flex px-2 pt-2 pb-4 sm:pb-2" : "sm:flex px-2 pt-2 pb-4 sm:pb-2" }  data-navbar-target="menu">
   <Link className="block text-gray-800 font-semibold hover:text-orange-500 rounded px-2 py-1" to="app">Home</Link>
   <Link className="block text-gray-800 font-semibold hover:text-orange-500 rounded px-2 py-1 mt-1 sm:mt-0 sm:ml-2" to="contact">Contact Us</Link>
  
   </div>
+  <div></div>
   {/* <div className="hidden">
   <a className="flex mr-6 items-center" href="#">
         <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 hover:text-gray-400 text-gray-800" fill="none" viewBox="0 0 24 24" stroke="currentColor">

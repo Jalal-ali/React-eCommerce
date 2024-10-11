@@ -9,7 +9,7 @@ const Contact = () => {
       <h1 className="title-font mb-4 text-2xl font-medium text-white sm:text-3xl">
         Contact Us
       </h1>
-      <p className="mx-auto text-base leading-relaxed lg:w-2/3">
+      <p className="mx-auto text-base text-orange-500 leading-relaxed lg:w-2/3">
         Feel free to reach out to us!
       </p>
     </div>
@@ -68,7 +68,7 @@ const Contact = () => {
           </div>
         </div>
         <div className="w-full p-2">
-          <button className="mx-auto flex rounded border-0 bg-indigo-400 py-2 px-8 text-lg text-white hover:bg-indigo-600 focus:outline-none">
+          <button className="mx-auto flex rounded border-0 bg-gray-500 py-2 px-8 text-lg text-gray-50 hover:bg-orange-500 focus:outline-none">
             Send
           </button>
         </div>
@@ -118,7 +118,7 @@ const Contact = () => {
   <div className="container mx-auto px-4">
     <div className="flex flex-wrap text-left lg:text-left">
       <div className="w-full lg:w-6/12 px-4">
-        <h4 className="text-3xl fonat-semibold text-blueGray-700">Keep in touch!</h4>
+        <h4 className="text-3xl fonat-semibold text-orange-500">Keep in touch!</h4>
         <h5 className="text-lg mt-0 mb-2 text-blueGray-600">
           Find us on any of these platforms, we respond 1-2 business days.
         </h5>
@@ -165,7 +165,7 @@ const Contact = () => {
       <div className="w-full lg:w-6/12 px-4">
         <div className="flex flex-wrap items-top mb-6">
           <div className="w-full lg:w-4/12 px-4 ml-auto">
-            <span className="block uppercase text-blueGray-500 text-sm font-semibold mb-2">Useful Links</span>
+            <span className="block uppercase text-orange-500 text-sm  font-semibold mb-2">Useful Links</span>
             <ul className="list-unstyled">
               <li>
                 <a className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="#">Blog</a>
@@ -176,7 +176,7 @@ const Contact = () => {
             </ul>
           </div>
           <div className="w-full lg:w-4/12 px-4">
-            <span className="block uppercase text-blueGray-500 text-sm font-semibold mb-2">Other Resources</span>
+            <span className="block uppercase text-orange-500 text-sm font-semibold mb-2">Other Resources</span>
             <ul className="list-unstyled">
               <li>
                 <a className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="">Terms &amp; Conditions</a>
@@ -196,7 +196,7 @@ const Contact = () => {
     <div className="flex flex-wrap items-center md:justify-between justify-center">
       <div className="w-full md:w-4/12 px-4 mx-auto text-center">
         <div className="text-sm text-blueGray-500 font-semibold py-1">
-          Copyright © <span id="get-current-year">2024</span><a href="https://github.com/Jalal-ali" className="text-blueGray-500 hover:text-gray-800" target="_blank"> Jalal Ali.</a>
+          Copyright © <span id="get-current-year">2024</span><a href="https://github.com/Jalal-ali" className="text-orange-500 hover:text-gray-800" target="_blank"> Jalal Ali.</a>
         </div>
       </div>
     </div>
