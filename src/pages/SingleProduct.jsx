@@ -39,13 +39,13 @@ const { id }  = useParams()
   <div className="max-w-full mx-auto px-4 sm:px-6 lg:px-8">
     <div className="flex flex-col md:flex-row -mx-4">
       <div className="md:flex-1 px-4">
-        <div className="min-h-px  rounded-lg bg-[#ffffff] mb-4">
+        <div className="min-h-px relative rounded-lg bg-[#ffffff] mb-4">
           <img
             className=" rounded-lg bg-contain px-20 py-5 "
             src={data.image}
             alt="Product Image"
           />
-    <span className="absolute top-44  m-2 rounded-full bg-black px-2 py-1 text-center text-sm font-medium text-white">30% OFF</span>
+    <span className="absolute top-4  m-2 rounded-full bg-black px-2 py-1 text-center text-sm font-medium text-white">30% OFF</span>
           
         </div>
         <div className="flex -mx-2 mb-4">
